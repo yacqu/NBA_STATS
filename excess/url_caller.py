@@ -1,0 +1,36 @@
+import json
+import os
+
+# url dictionary for every teams match up
+
+ATL_url_dictionary= json.loads(open(r"C:\python scripts\tryingnewsyntax\dics\ATL_dic.txt", "r").read())
+BKN_url_dictionary= json.loads(open(r"C:\python scripts\tryingnewsyntax\dics\BKN_dic.txt", "r").read())
+BOS_url_dictionary= json.loads(open(r"C:\python scripts\tryingnewsyntax\dics\BOS_dic.txt", "r").read())
+CHA_url_dictionary= json.loads(open(r"C:\python scripts\tryingnewsyntax\dics\CHA_dic.txt", "r").read())
+CHI_url_dictionary= json.loads(open(r"C:\python scripts\tryingnewsyntax\dics\CHI_dic.txt", "r").read())
+CLE_url_dictionary= json.loads(open(r"C:\python scripts\tryingnewsyntax\dics\CLE_dic.txt", "r").read())
+DAL_url_dictionary= json.loads(open(r"C:\python scripts\tryingnewsyntax\dics\CAL_dic.txt", "r").read())
+DEN_url_dictionary= json.loads(open(r"C:\python scripts\tryingnewsyntax\dics\DEN_dic.txt", "r").read())
+DET_url_dictionary= json.loads(open(r"C:\python scripts\tryingnewsyntax\dics\DET_dic.txt", "r").read())
+GSW_url_dictionary= json.loads(open(r"C:\python scripts\tryingnewsyntax\dics\GSW_dic.txt", "r").read())
+HOU_url_dictionary= json.loads(open(r"C:\python scripts\tryingnewsyntax\dics\HOU_dic.txt", "r").read())
+IND_url_dictionary= json.loads(open(r"C:\python scripts\tryingnewsyntax\dics\IND_dic.txt", "r").read())
+LAC_url_dictionary= json.loads(open(r"C:\python scripts\tryingnewsyntax\dics\LAC_dic.txt", "r").read())
+LAL_url_dictionary= json.loads(open(r"C:\python scripts\tryingnewsyntax\dics\LAL_dic.txt", "r").read())
+MEM_url_dictionary= json.loads(open(r"C:\python scripts\tryingnewsyntax\dics\MEM_dic.txt", "r").read())
+MIA_url_dictionary= json.loads(open(r"C:\python scripts\tryingnewsyntax\dics\MIA_dic.txt", "r").read())
+MIL_url_dictionary= json.loads(open(r"C:\python scripts\tryingnewsyntax\dics\MIL_dic.txt", "r").read())
+MIN_url_dictionary= json.loads(open(r"C:\python scripts\tryingnewsyntax\dics\MIN_dic.txt", "r").read())
+NOP_url_dictionary= json.loads(open(r"C:\python scripts\tryingnewsyntax\dics\NOP_dic.txt", "r").read())
+NYK_url_dictionary= json.loads(open(r"C:\python scripts\tryingnewsyntax\dics\NYK_dic.txt", "r").read())
+OKC_url_dictionary= json.loads(open(r"C:\python scripts\tryingnewsyntax\dics\OKC_dic.txt", "r").read())
+ORL_url_dictionary= json.loads(open(r"C:\python scripts\tryingnewsyntax\dics\ORL_dic.txt", "r").read())
+PHI_url_dictionary= json.loads(open(r"C:\python scripts\tryingnewsyntax\dics\PHI_dic.txt", "r").read())
+PHX_url_dictionary= json.loads(open(r"C:\python scripts\tryingnewsyntax\dics\PHX_dic.txt", "r").read())
+POR_url_dictionary= json.loads(open(r"C:\python scripts\tryingnewsyntax\dics\POR_dic.txt", "r").read())
+SAC_url_dictionary= json.loads(open(r"C:\python scripts\tryingnewsyntax\dics\SAC_dic.txt", "r").read())
+SAS_url_dictionary= json.loads(open(r"C:\python scripts\tryingnewsyntax\dics\SAS_dic.txt", "r").read())
+TOR_url_dictionary= json.loads(open(r"C:\python scripts\tryingnewsyntax\dics\TOR_dic.txt", "r").read())
+UTA_url_dictionary= json.loads(open(r"C:\python scripts\tryingnewsyntax\dics\UTA_dic.txt", "r").read())
+WAS_url_dictionary= json.loads(open(r"C:\python scripts\tryingnewsyntax\dics\WAS_dic.txt", "r").read())
+
