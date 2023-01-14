@@ -24,16 +24,10 @@ git clone https://github.com/yacqu/NBA_STATS.git
 Navigate to the directory and install the dependencies.
 Copy code
 
-cd MCM
-npm install
 
 Create a file called .env in the root directory and add your NBA API key as a variable.
 Copy code
  REACT_APP_NBA_API_KEY=your_api_key_here
-
-Start the development server.
-Copy code
-npm start
 
 
 ## Contributions
