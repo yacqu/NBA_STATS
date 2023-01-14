@@ -19,7 +19,7 @@ Welcome to the NBA Stats Prediction website! This website uses machine learning 
 
 Clone the repository from GitHub.
 Copy code
-git clone https://github.com/yacqu/MCM.git
+git clone https://github.com/yacqu/NBA_STATS.git
 
 Navigate to the directory and install the dependencies.
 Copy code
